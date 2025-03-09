@@ -35,10 +35,10 @@ cards.addEventListener("click", (e) => {
 });
 
 function saveData() {
-  localStorage.setItem("data", cards.innerHTML);
+  localStorage.setItem("newData", cards.innerHTML);
 }
 
 function showData() {
-  cards.innerHTML = localStorage.getItem("data");
+  cards.innerHTML = localStorage.getItem("newData");
 }
 showData();
