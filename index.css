@@ -17,6 +17,7 @@ body {
 }
 nav > .logo {
   text-align: center;
+  padding: 10px;
 }
 nav > hr {
   opacity: 0.2;
