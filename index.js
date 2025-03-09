@@ -21,6 +21,7 @@ function addTask() {
     cards.appendChild(li);
   }
   input.value = "";
+  saveData();
 }
 
 cards.addEventListener("click", (e) => {
